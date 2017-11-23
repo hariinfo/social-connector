@@ -1,0 +1,20 @@
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.chart.LineChart?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      spacing="10" alignment="CENTER"
+      fx:controller="com.stepan.dashboard.lengths.LengthsController">
+    <!--<BarChart fx:id="averageLength" title="Tweet average length" prefHeight="300" legendVisible="false">-->
+        <!--<xAxis>-->
+            <!--<NumberAxis fx:id="xAxis" label="Length"/>-->
+        <!--</xAxis>-->
+        <!--<yAxis>-->
+            <!--<NumberAxis fx:id="yAxis" label="Count" minorTickVisible="false"/>-->
+        <!--</yAxis>-->
+    <!--</BarChart>-->
+    <LineChart fx:id="testChart">
+        <xAxis><NumberAxis /></xAxis>
+        <yAxis><NumberAxis /></yAxis>
+    </LineChart>
+</VBox>

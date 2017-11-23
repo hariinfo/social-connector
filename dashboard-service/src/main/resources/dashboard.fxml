@@ -1,0 +1,9 @@
+<?import javafx.scene.layout.GridPane?>
+<GridPane fx:controller="com.stepan.dashboard.DashboardController"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="center" hgap="10" vgap="10">
+    <fx:include source="messages.fxml" fx:id="messages" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <fx:include source="lengths.fxml" fx:id="lengths" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <fx:include source="potential.fxml" fx:id="potentials" GridPane.columnIndex="2" GridPane.rowIndex="1"
+     GridPane.rowSpan="2"/>
+</GridPane>

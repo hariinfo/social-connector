@@ -1,0 +1,7 @@
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      spacing="10" alignment="CENTER"
+      fx:controller="com.stepan.dashboard.potential.PotentialController">
+    <PieChart fx:id="potentialChart" title="Tweets potential"/>
+</VBox>

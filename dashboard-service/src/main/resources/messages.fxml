@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      spacing="10" alignment="CENTER"
+      fx:controller="com.stepan.dashboard.messages.MessagesController">
+    <TableView fx:id="tweetsTable" prefHeight="700">
+        <columns>
+            <TableColumn text="Tweet" prefWidth="300">
+                <cellValueFactory>
+                    <PropertyValueFactory property="message"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Length" prefWidth="180">
+                <cellValueFactory>
+                    <PropertyValueFactory property="lenth"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Published" prefWidth="180">
+                <cellValueFactory>
+                    <PropertyValueFactory property="date"/>
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+</VBox>
